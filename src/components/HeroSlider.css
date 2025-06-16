@@ -1,0 +1,114 @@
+.hero-swiper {
+  background: #fbefff;
+  height: 6%;
+}
+  
+.slide-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+  
+  .text-content {
+    max-width: 600px;
+  }
+  
+  .label {
+    color: #ff00b5;
+    font-weight: 600;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    background: linear-gradient(to right, #2100ff, #ff00b5);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .price {
+    margin-top: 1rem;
+  }
+  
+  .price .new {
+    color: #ff0080;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .price .old {
+    text-decoration: line-through;
+    margin-left: 1rem;
+    color: grey;
+  }
+  
+  .price .discount {
+    background-color: #001c84;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    margin-left: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .buttons {
+    margin-top: 2rem;
+  }
+  
+  .buy-now {
+    background: linear-gradient(to right, #2100ff, #ff00b5);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .discover {
+    background: #00021c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .image-content img {
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+  .label {
+    background: #ffb6c1;
+    color: #870058;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    color: #444;
+  }
+  
+  .stars {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: gold;
+  }
+  
+  .rating {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  
