@@ -42,7 +42,7 @@ const DetailProductContent: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           <div className="space-y-4">
             <div className="relative bg-white rounded-2xl p-8 shadow-lg">
-              <img src="/img/oussoulan-removebg-preview.png" alt="Produit" className="w-full h-96 object-cover" />
+              <img src="/img/kindikay.jpg" alt="Produit" className="w-full h-96 object-cover" />
             </div>
           </div>
 
