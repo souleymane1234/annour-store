@@ -8,7 +8,7 @@ function Footer() {
     >
       <Grid container spacing={4}>
         {/* Logo + description + social */}
-        <Grid size={{ xs: 12, md: 6 }} item xs={12} md={4} textAlign={{ xs: 'center', md: 'left' }}>
+        <Grid size={{ xs: 12, md: 6 }} textAlign={{ xs: 'center', md: 'left' }}>
           <div className="flex items-center gap-2 mb-4">
             {/* <div className="bg-gradient-to-r from-pink-500 to-purple-700 w-10 h-10 rounded-full" /> */}
             <h1 className="text-2xl font-bold">LOGO</h1>

@@ -52,7 +52,11 @@ const productCards = [
   },
 ];
 
-function ProductCard({title}) {
+type ProductCardProps = {
+  title: string;
+};
+
+const ProductCard: React.FC<ProductCardProps> = ({title}) => {
   return (
     <>
       <Typography variant="h4" align="center" gutterBottom fontWeight="bold" sx={{ mt: 4, mb: 2 }}>

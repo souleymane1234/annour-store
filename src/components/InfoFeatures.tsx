@@ -1,5 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { Truck, ShieldCheck, Headphones } from 'lucide-react';
 
 const features = [
@@ -31,14 +31,14 @@ const container = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 40 },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.6,
-      ease: 'easeOut',
+      ease: [0.42, 0, 0.58, 1],
     },
   },
 };
@@ -48,7 +48,7 @@ const iconVariant = {
   show: {
     rotate: 0,
     scale: 1,
-    transition: { type: 'spring', stiffness: 300, damping: 20 },
+    transition: { type: 'spring' as const, stiffness: 300, damping: 20 },
   },
 };
 

@@ -13,10 +13,10 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
+
 
 // Tu peux lier chaque item à un path ici
 const navItems = [
@@ -25,8 +25,11 @@ const navItems = [
   { label: 'A PROPOS', path: '/about' }
 ];
 
-function DrawerAppBar(props) {
-  const { window } = props;
+interface DrawerAppBarProps {
+  window?: () => Window;
+}
+
+const DrawerAppBar: React.FC<DrawerAppBarProps> = ({window}) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
